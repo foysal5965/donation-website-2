@@ -58,7 +58,7 @@ body {
     text-align: center;
 }
 
-section {
+.tk {
     color: gray;
     display: flex;
     margin-bottom: 2in;
@@ -195,4 +195,59 @@ p {
     margin-top: 2in;
     shape-image-threshold: calc(3in 3in);
     height: 5in;
+}
+
+.updates h2 {
+    text-align: center;
+}
+
+.updates p {
+    text-align: center;
+    margin-bottom: 0.5in;
+}
+
+.subscribe {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px 20px;
+
+}
+
+form {
+    margin-top: 1in;
+    position: absolute;
+    left: 4.2in;
+    top: 21in;
+    background-color: rgb(237, 159, 159);
+    width: 5in;
+    padding: 20px;
+    border: 15px solid white;
+
+    margin: 20px;
+    height: 0.3in;
+    margin-top: .6in;
+    margin-bottom: 1in;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 1.5in;
+    color: red;
+}
+
+footer {
+    text-align: center;
+    color: white;
+
+}
+
+.last {
+    margin-top: 1in;
+    background-color: black;
+    height: 1.5in;
+
+
 }
